@@ -1,0 +1,7 @@
+watch_directories:
+    - /Users/Rockwell/Desktop
+
+access_key_id: HERP_DERP
+secret_access_key: FLERP_QUERP
+region: us-east-1
+dry_run: no
