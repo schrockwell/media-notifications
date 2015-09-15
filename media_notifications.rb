@@ -5,6 +5,7 @@ require 'yaml'
 @new_titles = []
 
 MAX_SUBJECT_LENGTH = 100
+VIDEO_EXTENSIONS = %w{avi mkv mp4 m4v mov mpg}
 
 @config['watch_directories'].each do |dir|
 	seen_path = File.join(dir, '.seen')
@@ -15,7 +16,7 @@ MAX_SUBJECT_LENGTH = 100
 		seen_files = []
 	end
 
-	current_files = Dir[File.join(dir, '*')]
+	current_files = Dir[File.join(dir, "**/*.{#{VIDEO_EXTENSIONS.join(',')}}")]
 	new_files = current_files - seen_files
 
 	@new_titles += new_files.map do |new_file|
