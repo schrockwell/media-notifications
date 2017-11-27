@@ -12,8 +12,6 @@
 	<string>com.schrockwell.media-notifications</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>sh</string>
-		<string>-c</string>
 		<string>/Users/rockwell/.rvm/wrappers/ruby-2.2.2@media-notifications/ruby</string>
 		<string>/Users/rockwell/Projects/media-notifications/media_notifications.rb</string>
 	</array>
