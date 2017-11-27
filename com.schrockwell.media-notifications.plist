@@ -2,16 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UserName</key>
+	<string>rockwell</string>
 	<key>GroupName</key>
-	<string>media</string>
+	<string>staff</string>
+	<key>RunAtLoad</key>
+	<true/>
 	<key>Label</key>
 	<string>com.schrockwell.media-notifications</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>sh</string>
 		<string>-c</string>
-		<string>/Users/media/.rvm/wrappers/ruby-2.2.2@media-notifications/ruby</string>
-		<string>/Users/media/Projects/media-notifications/media_notifications.rb</string>
+		<string>/Users/rockwell/.rvm/wrappers/ruby-2.2.2@media-notifications/ruby</string>
+		<string>/Users/rockwell/Projects/media-notifications/media_notifications.rb</string>
 	</array>
 	<key>StartCalendarInterval</key>
 	<array>
@@ -64,7 +68,5 @@
 			<integer>55</integer>
 		</dict>
 	</array>
-	<key>UserName</key>
-	<string>media</string>
 </dict>
 </plist>

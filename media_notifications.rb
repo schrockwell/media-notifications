@@ -36,6 +36,8 @@ VIDEO_EXTENSIONS = %w{avi mkv mp4 m4v mov mpg}
 	end
 end
 
+@new_titles.uniq!
+
 if @new_titles.length == 0
 	puts '0 new'
 else
